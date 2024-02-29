@@ -8,7 +8,7 @@ class MyClass {
 
     addStudent(student) {
         if (!(student instanceof Student)) {
-            return -1;
+            return -1;;;
         }
         this.students.push(student);
         return this.students.length - 1;
